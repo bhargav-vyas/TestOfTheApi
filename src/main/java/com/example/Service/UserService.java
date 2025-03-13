@@ -15,4 +15,10 @@ public class UserService {
 		return userRepository.save(user);
 	}
 
+
+	public user get(user user) {
+		
+		return userRepository.getById(null);
+	}
+
 }
